@@ -1,0 +1,8 @@
+.hcontainer {
+  max-width: 1000px; /* Increase the maximum width */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding */
+  border: 1px solid #ccc; /* Add border */
+  border-radius: 10px; /* Add border radius for rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}

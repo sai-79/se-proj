@@ -1,0 +1,82 @@
+.body {
+  background-image: url("https://img.freepik.com/premium-vector/financial-banking-technology-concept_387612-31.jpg");
+  background-size: cover;
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  padding-left: 200px;
+  justify-content: left;
+  align-items: center;
+}
+.login-container {
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.container {
+  background-color: #edede9; /* Semi-transparent black background */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+  width: 320px;
+  margin-right: auto; /* Pushes the container to the left */
+  margin-left: 0px; /* Adjust the left margin as needed */
+}
+.bank-theme {
+  font-family: Arial, sans-serif;
+}
+.bank-theme {
+  min-width: 400px; /* Decrease the maximum width */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 20px; /* Add padding */
+  border: 2px solid #007bff; /* Add border with bank theme color */
+  border-radius: 8px; /* Add border radius for rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+
+.login-heading {
+  color: #2e2626;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 15px;
+}
+
+.input-label {
+  color: #281f1f;
+  margin-bottom: 5px;
+}
+
+.bank-input,
+.bank-select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #555;
+  border-radius: 5px;
+  background-color: #fffeff;
+  color: #302d2d;
+}
+
+.bank-select {
+  appearance: none;
+}
+
+.login-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  width: 100%;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #0056b3;
+}

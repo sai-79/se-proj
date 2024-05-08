@@ -1,0 +1,33 @@
+.navbar-container {
+  margin-bottom: 20px;
+}
+
+.notifications-container {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.log-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.log-entry {
+  margin-bottom: 5px;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.even {
+  background-color: #e0e0e0; /* Light gray for even entries */
+}
+
+.odd {
+  background-color: #f0f0f0; /* Lighter gray for odd entries */
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+}
